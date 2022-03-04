@@ -1,0 +1,237 @@
+.BodyModal {
+  background-color: rgba(31, 31, 31, 1);
+  padding: 20px;
+}
+
+.input {
+  background-color: rgba(210, 210, 210, 0.25);
+  margin-bottom: 20px;
+  color: white;
+}
+
+.ModalHeader {
+  background-color: rgba(31, 31, 31, 1);
+  border: none;
+  padding: 20px;
+}
+
+.BodyModal button {
+  width: 100%;
+  background-image: linear-gradient(
+    to right,
+    rgba(77, 212, 247, 1),
+    rgba(144, 144, 251, 1),
+    rgba(255, 107, 129, 1),
+    rgba(251, 223, 99, 1)
+  );
+  color: white;
+  font-weight: bold;
+}
+
+.BodyModal div {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  color: white;
+  /* color: rgba(177, 177, 177, 1); */
+}
+
+.BodyModal div a {
+  margin-left: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* CSS Modal Feed */
+
+.Content {
+  width: 100%;
+  height: 450px;
+  background-color: rgba(31, 31, 31, 1);
+  display: flex;
+}
+
+.ContentPhoto {
+  flex: 60%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* position: relative; */
+}
+
+.ContentPhoto img {
+  /* min-width: 100px; */
+  min-width: auto;
+  max-width: 500px;
+  min-height: auto;
+  max-height: 400px;
+  object-fit: cover;
+}
+
+.ContentComment {
+  flex: 40%;
+  display: flex;
+  flex-direction: column;
+  /* background-color: green; */
+  /* overflow-y: scroll; */
+  /* white-space: nowrap; */
+}
+
+.Group1 {
+  min-height: 90px;
+  max-height: 150px;
+  /* background-color: red; */
+  display: flex;
+  flex-direction: column;
+}
+
+.Group2 {
+  min-height: 40px;
+  max-height: 100px;
+  /* background-color: green; */
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.Close {
+  width: 100%;
+  height: 30px;
+  /* background-color: yellow; */
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.Close img {
+  cursor: pointer;
+}
+
+.Owner {
+  min-height: 60px;
+  max-height: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* background-color: green; */
+}
+
+.Profile {
+  width: 100%;
+  min-height: 30px;
+  /* background-color: violet; */
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  color: white;
+  font-weight: 500;
+  font-size: 13px;
+}
+
+.Caption {
+  width: 90%;
+  min-height: 30px;
+  max-height: 90px;
+  /* background-color: yellow; */
+  display: flex;
+  border-bottom-color: rgba(171, 171, 171, 0.3);
+  border-bottom-style: solid;
+  /* margin-right: 20px; */
+  /* margin-left: 20px; */
+}
+
+.Caption p {
+  font-size: 13px;
+  font-weight: 500;
+  color: rgba(171, 171, 171, 1);
+  margin-left: 35px;
+  margin-top: 5px;
+}
+
+.Comment {
+  width: 90%;
+  min-height: 30px;
+  max-height: 90px;
+  display: flex;
+}
+
+.Comment p {
+  font-size: 13px;
+  font-weight: 500;
+  color: rgba(171, 171, 171, 1);
+  margin-left: 35px;
+  margin-top: 5px;
+}
+
+.Circle {
+  width: 25px;
+  height: 25px;
+  background-image: linear-gradient(
+    to right,
+    rgba(77, 212, 247, 1),
+    rgba(144, 144, 251, 1),
+    rgba(255, 107, 129, 1),
+    rgba(251, 223, 99, 1)
+  );
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.Circle img {
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+}
+
+/* make comment */
+
+.ContentMakeComment {
+  /* background-color: green; */
+  position: fixed;
+  bottom: 94px;
+  width: 24.6%;
+  height: 100px;
+}
+
+.GroupBtn {
+  /* background-color: red; */
+  height: 30px;
+  margin-top: 2px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.GroupBtn img {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+  cursor: pointer;
+}
+
+.ContentLikes {
+  /* background-color: red; */
+  height: 30px;
+  margin-top: 2px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 16px;
+  padding: 0px 10px;
+  color: rgba(171, 171, 171, 1);
+}
+
+.CommentInput {
+  height: 30px;
+  background-color: rgba(92, 92, 92, 1);
+  color: white;
+}
+

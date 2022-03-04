@@ -1,0 +1,114 @@
+.Container {
+  flex: 70%;
+  /* background-color: rgba(11, 11, 11, 1); */
+  /* height: 100vh; */
+}
+
+.ContainerChat {
+  width: 100%;
+  height: 90%;
+  /* background-color: red; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.ContainerChat2 {
+  width: 100%;
+  height: 90%;
+  /* background-color: red; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.Block {
+  width: 90%;
+  min-height: 120px;
+  background-color: transparent;
+}
+
+.Message {
+  width: 95%;
+  min-height: 40px;
+  /* background-color: yellow; */
+  display: flex;
+  align-items: center;
+  align-self: flex-start;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+.Message2 {
+  width: 95%;
+  min-height: 40px;
+  /* background-color: green; */
+  display: flex;
+  align-items: center;
+  align-self: flex-end;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
+.Profile {
+  width: 40px;
+  height: 40px;
+  background-color: red;
+  border-radius: 30px;
+}
+
+.Profile img {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+}
+
+.Chat {
+  width: 100%;
+  height: 40px;
+  /* background-color: green; */
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  font-weight: 500;
+  color: white;
+  align-self: flex-start;
+}
+
+.Chat2 {
+  width: 100%;
+  height: 40px;
+  /* background-color: red; */
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  font-size: 15px;
+  font-weight: 500;
+  color: white;
+}
+
+.ContainerInput {
+  width: 67%;
+  height: 50px;
+  /* background-color: red; */
+  margin-bottom: 40px;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ContainerInput input {
+  width: 100%;
+  height: 40px;
+  background-color: rgba(171, 171, 171, 0.15);
+  border: none;
+  font-size: 15px;
+  padding: 0px 10px;
+  color: white;
+  border-radius: 5px;
+}

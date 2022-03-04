@@ -1,0 +1,43 @@
+.Container {
+  flex: 30%;
+  height: 100%;
+  /* background-color: rgba(11, 11, 11, 1); */
+  border-right-color: rgba(106, 106, 106, 0.3);
+  border-right-style: solid;
+}
+
+.Space {
+  width: 100%;
+  height: 20px;
+  /* background-color: red; */
+}
+
+.CartContact {
+  /* background-color:green; */
+  margin-top: 10px;
+  display: flex;
+  min-height: 50px;
+  align-items: center;
+  font-size: 15px;
+  font-weight: 500;
+  color: white;
+  cursor: pointer;
+}
+
+.Circle {
+  width: 40px;
+  height: 40px;
+  background-color: rgb(161, 154, 154);
+  margin-left: 15px;
+  margin-right: 15px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ImgUser {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+}
